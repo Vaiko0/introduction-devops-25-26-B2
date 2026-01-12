@@ -56,7 +56,7 @@ jobs:
     needs: format
     permissions:
       contents: read # Required to checkout and read repo files
-      security-events: write # Required to upload SARIF files to Security tab
+      security-events: write # oui 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
